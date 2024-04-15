@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Serene Minds</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header2">
+		<nav>
+			<a href="SereneMinds.html"><img src="logo.png"></a>
+			<div class="nav-links" id="navlinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="SereneMinds.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="Services.html">SERVICES</a></li>
+					<li><a href="Resources.html">RESOURCES</a></li>
+					<li><a href="Contact Us.html">CONTACT US</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Resources Available</h1>
+	</section>
+
+	
+
+	<!--Resources-->
+
+	<section class="resources">
+		<h1>Our Resources</h1>
+		<p>We possess articles and blog posts, self-help tools and worksheets, recommended reading list, mental health apps and online tools, community support groups, and crisis intervention and hotline resources.</p>
+
+		<div class="row">
+			<div class="resources-col">
+				<h3>Articles and Blog Posts</h3>
+				<p>Explore a curated collection of insightful articles and blog posts covering a wide range of mental health topics. Our content is written by experts in the field and aims to provide valuable information, tips, and strategies for improving mental well-being and navigating life's challenges.</p>
+			</div>
+			<div class="resources-col">
+				<h3>Self-Help Tools and Worksheets</h3>
+				<p>Access a variety of self-help tools and printable worksheets designed to support your mental health journey. These resources include mood trackers, mindfulness exercises, relaxation techniques, goal-setting worksheets, and more. Use them independently or in conjunction with therapy for enhanced self-awareness and personal growth.</p>
+			</div>
+			<div class="resources-col">
+				<h3>Recommended Reading List</h3>
+				<p>Discover recommended books and resources related to mental health, psychology, mindfulness, and self-improvement. Whether you're looking for practical guides, inspiring memoirs, or evidence-based research, our reading list offers valuable resources to expand your knowledge and perspective.</p>
+			</div>
+			<div class="resources-col">
+				<h3> Mental Health Apps and Online Tools</h3>
+				<p>Explore a selection of reputable mental health apps and online tools that can complement your therapy sessions and support your well-being. From meditation apps to mood tracking tools, these digital resources provide convenience and accessibility for managing stress, anxiety, depression, and other mental health concerns.</p>
+			</div>
+			<div class="resources-col">
+				<h3>Community Support Groups</h3>
+				<p>Connect with others who share similar experiences and challenges through our community support groups. These groups provide a supportive and non-judgmental space for sharing, learning, and mutual support. Engage in discussions, share resources, and build meaningful connections with like-minded individuals on a journey toward improved mental health.</p>
+			</div>
+			<div class="resources-col">
+				<h3>Crisis Intervention and Hotline Resources</h3>
+				<p>For immediate support during crisis situations, we provide information and contact details for crisis intervention services and hotlines. These resources offer confidential support, guidance, and crisis intervention for individuals experiencing acute mental health emergencies or emotional distress.</p>
+			</div>
+		</div>
+
+	</section>
+
+	
+	<!--Footer-->
+
+	<section class="footer">
+		<h4>About Serene Minds</h4>
+		<p>At Serene Minds, we are dedicated to providing compassionate and effective mental health support to individuals seeking guidance, healing, and growth. <br>Our mission is to empower individuals to overcome challenges, enhance their well-being, and live fulfilling lives.</p>
+		<br><br>
+
+		<div class="icons">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-instagram"></a>
+		</div>
+
+	</section>
+
+	<!--JavaScript for toggle menu-->
+	<script>
+
+		var navlinks = document.getElementById("navlinks");
+
+		function showMenu(){
+			navlinks.style.right="0";
+		}
+
+		function hideMenu(){
+			navlinks.style.right="-200px";
+		}
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Serene Minds</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header1">
+		<nav>
+			<a href="SereneMinds.html"><img src="logo.png"></a>
+			<div class="nav-links" id="navlinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="SereneMinds.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="Services.html">SERVICES</a></li>
+					<li><a href="Resources.html">RESOURCES</a></li>
+					<li><a href="Contact Us.html">CONTACT US</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Services We Offer</h1>
+	</section>
+
+	
+	<!--Services-->
+	<section class="services">
+		<h1>Services We Offer</h1>
+		<p>We offer individual counselling, group therapy, mental health workshops, teletherapy services, psychoeducational resources, and other referral services.</p>
+
+		<div class="row">
+			<div class="services-col">
+				<img src="individual-counseling.jpg" align="center">
+				<h3>Individual Counselling</h3>
+				<p>Our experienced counselors provide one-on-one sessions tailored to your unique needs. We offer a safe and confidential space to explore your thoughts, feelings, and challenges, helping you develop coping strategies and achieve emotional well-being.</p>
+			</div>
+			<div class="services-col">
+				<img src="group_therapy.jpg">
+				<h3>Group Therapy</h3>
+				<p>Join our supportive group therapy sessions facilitated by licensed therapists. Connect with others facing similar experiences, share insights, and learn from each other in a collaborative and empathetic environment. Group therapy can be particularly beneficial for building social skills, fostering empathy, and reducing feelings of isolation.</p>
+			</div>
+			<div class="services-col">
+				<img src="mental-health-workshops.jpeg">
+				<h3>Mental Health Workshops</h3>
+				<p>Participate in our informative and engaging workshops focused on various aspects of mental health and wellness. Led by experts in the field, these workshops cover topics such as stress management, mindfulness practices, self-care techniques, and building resilience. Enhance your knowledge and skills to better manage life's challenges.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="services-col">
+				<img src="teletherapy.jpeg">
+				<h3>Teletherapy Services</h3>
+				<p>Access our mental health services conveniently from anywhere through secure teletherapy sessions. Receive professional support and guidance via video calls or phone sessions, making mental health care more accessible and flexible to accommodate your schedule and preferences.</p>
+			</div>
+			<div class="services-col">
+				<img src="psychoed.jpeg">
+				<h3>Psychoeducational Resources</h3>
+				<p>Explore our library of psychoeducational resources, including articles, videos, and self-help materials designed to empower and educate individuals about mental health. Gain valuable insights, tips, and tools for improving emotional well-being and maintaining a healthy lifestyle.</p>
+			</div>
+			<div class="services-col">
+				<img src="referral.jpeg">
+				<h3>Referral Services</h3>
+				<p>If additional support or specialized care is needed, we provide referrals to trusted mental health professionals and resources within our network. Ensuring continuity of care and comprehensive support for individuals seeking specialized treatment or services beyond our scope.</p>
+			</div>
+		</div>
+	</section>
+
+	
+
+	
+	<!--Footer-->
+
+	<section class="footer">
+		<h4>About Serene Minds</h4>
+		<p>At Serene Minds, we are dedicated to providing compassionate and effective mental health support to individuals seeking guidance, healing, and growth. <br>Our mission is to empower individuals to overcome challenges, enhance their well-being, and live fulfilling lives.</p>
+		<br><br>
+
+		<div class="icons">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-instagram"></a>
+		</div>
+
+	</section>
+
+	<!--JavaScript for toggle menu-->
+	<script>
+
+		var navlinks = document.getElementById("navlinks");
+
+		function showMenu(){
+			navlinks.style.right="0";
+		}
+
+		function hideMenu(){
+			navlinks.style.right="-200px";
+		}
+
+	</script>
+</body>
+</html>

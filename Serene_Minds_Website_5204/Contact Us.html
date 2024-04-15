@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Serene Minds</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header3">
+		<nav>
+			<a href="SereneMinds.html"><img src="logo.png"></a>
+			<div class="nav-links" id="navlinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="SereneMinds.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="Services.html">SERVICES</a></li>
+					<li><a href="Resources.html">RESOURCES</a></li>
+					<li><a href="Contact Us.html">CONTACT US</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Contact Us</h1>
+	</section>
+
+	<!--Contact Us-->
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8358482079943!2d79.8590682!3d6.910222500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2596f14eb4a01%3A0x9d0ef3fb93b10915!2sSir%20Marcus%20Fernando%20Mawatha%2C%20Colombo%2000700!5e0!3m2!1sen!2slk!4v1713191916184!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		
+	</section>
+
+	<section class="contact-us">
+		<div class="row">
+			<div class="contact-col">
+				<div>
+					<a href="#" class="fa fa-home"></a>
+					<span>
+						<h5>No.123, Serene Minds Building, Sir Marcus Fernando Mawatha, Colombo 7</h5>
+						<p>Colombo, Sri Lanka</p>
+					</span>
+				</div>
+				<div>
+					<a href="#" class="fa fa-phone"></a>
+					<span>
+						<h5>+94 29 9 874395</h5>
+						<h5>+94 29 9 874396</h5>
+						<h5>+94 29 9 874397</h5>
+						<h5>+94 29 9 874398</h5>
+						<h5>+94 29 9 874399</h5>
+						<p>Everyday, 24hrs</p>
+					</span>
+				</div>
+				<div>
+					<a href="#" class="fa fa-envelope"></a>
+					<span>
+						<h5>sereneminds@gmail.com</h5>
+						<p>Email us your query</p>
+					</span>
+				</div>
+			</div>
+			<div class="contact-col">
+				<form action="">
+					<input type="text" placeholder="Enter your name" required><br>
+					<input type="text" placeholder="Enter email address" required><br>
+					<input type="text" placeholder="Enter your age" required><br>
+					<input type="text" placeholder="Enter your gender" required><br>
+					<textarea rows="8" placeholder="Message" required></textarea><br>
+					<button type="submit" class="hero-btn1">Send Message</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact-col">
+		<h3>Contact other organizations that can aid you</h3>
+		<p>We have made mutual friendships with other organizations that can answer your problems. In case you need more support, you can always contact these organizations too.</p>
+		<br><br>
+	<div class="container">	
+		<table border="1">
+			<tr>
+				<th rowspan="2">Organization</th>
+				<th colspan="2">Contact information</th>
+			</tr>
+			<tr>
+				<th>Contact Number</th>
+				<th>Website</th>
+			</tr>
+			<tr>
+				<td>Sri Lanka Sumithrayo</td>
+				<td>+94 11 2 682535</td>
+				<td>https://srilankasumithrayo.lk/</td>
+			</tr>
+			<tr>
+				<td>National Mental Health Helpline</td>
+				<td>1926</td>
+				<td>nimh.health.gov.lk</td>
+			</tr>
+			<tr>
+				<td>CCCline1333</td>
+				<td>1333</td>
+				<td>https://1333.lk/</td>
+			</tr>
+		</table>
+	</div>
+	</section>
+	
+	<!--Footer-->
+
+	<section class="footer">
+		<h4>About Serene Minds</h4>
+		<p>At Serene Minds, we are dedicated to providing compassionate and effective mental health support to individuals seeking guidance, healing, and growth. <br>Our mission is to empower individuals to overcome challenges, enhance their well-being, and live fulfilling lives.</p>
+		<br><br>
+
+		<div class="icons">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-instagram"></a>
+		</div>
+
+	</section>
+
+	<!--JavaScript for toggle menu-->
+	<script>
+
+		var navlinks = document.getElementById("navlinks");
+
+		function showMenu(){
+			navlinks.style.right="0";
+		}
+
+		function hideMenu(){
+			navlinks.style.right="-200px";
+		}
+
+	</script>
+</body>
+</html>
