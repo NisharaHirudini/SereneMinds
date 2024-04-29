@@ -333,7 +333,7 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image:  linear-gradient(rgba(,9,30,0.7),rgba(4,9,30,0.7)),url(img.jpg);
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -383,7 +383,7 @@ h3{
 .sub-header1{
     height: 50vh;
     width: 100%;
-    background-image:  linear-gradient(rgba(,9,30,0.7),rgba(4,9,30,0.7)),url(servicesweoffer.png);
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(servicesweoffer.png);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -399,7 +399,7 @@ h3{
 .sub-header2{
     height: 50vh;
     width: 100%;
-    background-image:  linear-gradient(rgba(,9,30,0.7),rgba(4,9,30,0.7)),url(resourcesavailable.png);
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(resourcesavailable.png);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -415,7 +415,7 @@ h3{
 .sub-header3{
     height: 50vh;
     width: 100%;
-    background-image:  linear-gradient(rgba(,9,30,0.7),rgba(4,9,30,0.7)),url(contactus.jpeg);
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(contactus.jpeg);
     background-position: center;
     background-size: cover;
     text-align: center;
